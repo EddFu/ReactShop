@@ -13,7 +13,7 @@ import SendEmail from '../Pages/SendEmail.jsx';
 import NotFound from '../Pages/NotFound.jsx';
 import AppContext from '../context/AppContext.js';
 import useInitialState from '../hooks/useInitialState.js';
-import '../styles/global.css';
+import '@Styles/global.css';
 
 const App = () => {
     const initialState = useInitialState();
